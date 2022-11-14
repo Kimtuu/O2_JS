@@ -5,7 +5,6 @@ let numbers = [];
 let number = parseInt(prompt('Gib number:'));
 numbers.push(number);
 
-
 while (numbers.includes(number)){
   number = parseInt(prompt('Gib more number:'));
   numbers.push(number);
@@ -16,4 +15,6 @@ while (numbers.includes(number)){
 numbers.sort(function(a, b){return a-b})
 
 target.innerHTML = numbers
+
+// toimi kunnolla D: kysyy vain 2 kertaa
 
